@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS;
+}
+
+header{
+    background: linear-gradient(135deg, dodgerblue, #153677 ,#4e085f);
+    background-color: #153677;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    display: flex;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+img{
+    height: 100px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 120px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.btn{
+    border: 2px dodgerblue;
+    padding: 15px 30px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.btn a{
+    text-decoration: solid;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(25, 111, 198);
+    color: white;
+    border-color: rgb(25, 111, 198);
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    margin: 6px;
+}
+.main{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
